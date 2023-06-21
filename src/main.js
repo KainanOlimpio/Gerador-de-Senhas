@@ -9,5 +9,4 @@ passwordBtnEl.addEventListener('click', () => {
   const randomPassword = nanoid();
   displayPasswordEl.innerHTML = randomPassword;
   copy(randomPassword);
-  alert('Senha copiada!');
 });
